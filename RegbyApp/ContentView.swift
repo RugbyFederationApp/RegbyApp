@@ -9,8 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world on new rep!")
-            .padding()
+		ScrollView(.vertical, showsIndicators: false) {
+	NewsBlock()
+		}
     }
 }
 
